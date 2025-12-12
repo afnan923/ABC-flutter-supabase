@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supabase_latihan/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Supabase App'
+      title: 'Flutter Supabase App',
+      home: const HomePage(),
     );
   }
 }
